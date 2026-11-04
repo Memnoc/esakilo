@@ -1,8 +1,8 @@
 # TITLE: re-implementation of Antirez's Kilo, a simple terminal-based text editor
 
-# SUBTITLE: Following Esadecimale and https://viewsourcecode.org/snaptoken/kilo/ for the implmentation
+## SUBTITLE: Following Esadecimale and https://viewsourcecode.org/snaptoken/kilo/ for the implmentation
 
-## To compile the original Kilo
+### To compile the original Kilo
 
 Compile as a normal C executable but with make
 `make kilo`

@@ -1,7 +1,12 @@
+CC ?= cc
+CFLAGS ?= -Wall -W -pedantic -std=c99
+
 all: esakilo
 
-kilo: esakilo.c
-	$(CC) -o esakilo esakilo.c -Wall -W -pedantic -std=c99
+esakilo: esakilo.c
+	$(CC) $(CFLAGS) -o $@ $<
 
 clean:
-	rm esakilo
+	rm -f esakilo
+
+.PHONY: all clean
